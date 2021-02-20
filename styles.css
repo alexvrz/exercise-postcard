@@ -5,5 +5,48 @@ body {
 	background: white;
 	width: 400px;
 	height: 300px;
-	margin: auto;
+    margin: auto;
+    position:absolute; top: 50%; left: 50%; transform:translate(-50%, -50%);
+    padding: 15px;
+}
+.postcard h1{
+    margin:0;
+}
+.cabeza img{
+    max-width:50px;
+    float: right;
+}
+.cabeza{
+    overflow: hidden;
+}
+.izquierda{
+    float: left;
+    width: 50%;
+}
+.derecha{
+    float: right;
+    width: 50%;
+    padding-top: 5px;
+}
+.derecha input{
+    display: block;
+}
+.cuerpo{
+    overflow: hidden;
+}
+.pie{
+    padding: 10px; text-align: center;
+}
+.pie input[type=submit]{
+    border: none; border-bottom: solid 1px gray;
+}
+.letra{
+    font-family: 'Handlee', cursive;
+}
+.cuerpo input{
+    border: none;border-bottom: solid 1px gray;
+    font-family: 'Handlee', cursive;
+    font-size: 16px;
+    width: 170px;
+    margin: auto;
 }
